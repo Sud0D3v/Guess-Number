@@ -1,0 +1,73 @@
+html{
+    background-color: antiquewhite;
+}
+
+    body{
+        background: #0089bf;
+        background: linear-gradient(90deg,rgba(0, 137, 191, 1) 0%, rgba(87, 199, 133, 1) 55%, rgba(237, 221, 83, 1) 89%);
+        max-width: 50rem;
+        margin-inline: auto;
+        padding-inline: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 15vh;
+    }
+
+        .mainContainer{
+            text-align: center;
+        }
+
+            .mainContainer_consigne{
+                width: 25rem
+            }
+
+            .mainContainer_ecranDigit{
+                background-color: white;
+                width:min(100%,20rem);
+                aspect-ratio: 1;
+                border-radius: 5px;
+                margin-inline: auto;
+                color: black;
+                display: grid;
+                place-items:center;
+                font-size: 5rem;
+            }
+
+            .mainContainer_clavier{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+            }
+                
+                .mainContainer_touche{
+                    background-color: rgb(177, 176, 176);
+                    width:min(40%,4rem);
+                    aspect-ratio: 1;
+                    margin:1%;
+                    border-radius: 4px;
+                    display: grid;
+                    place-items: center;
+                }
+
+                .mainContainer_toucheEntrer{
+                    background-color: green;
+                    width:min(50%,6rem);
+                    aspect-ratio: 2;
+                    display: grid;
+                    place-items: center;
+                    border-radius: 4px;
+                }
+
+                .mainContainer_toucheEffacer{
+                    background-color: red;
+                    width:min(50%,6rem);
+                    aspect-ratio: 2;
+                    display: grid;
+                    place-items: center;
+                    border-radius: 4px;
+                }
